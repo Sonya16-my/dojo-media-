@@ -1,0 +1,18 @@
+:root {
+    /* Цвета */
+    --color-paper: #F1EDE2;
+    --color-ink: #211B18;
+    --color-muted: #655B54;
+    --color-line: #C7BEB2;
+    --color-accent: #302038;
+    --color-white: #FFFFFF;
+    --color-hover: #E9E3D6;
+    
+    /* Шрифты */
+    --font-heading: 'Oranienbaum', serif;
+    --font-body: 'Manrope', sans-serif;
+    
+    /* Размеры */
+    --container-width: 1200px;
+    --section-padding: 80px 0;
+}

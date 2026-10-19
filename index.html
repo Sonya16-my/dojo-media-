@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додзё Медиа — Цифровое ремесло. Измеримый результат.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Oranienbaum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">Додзё Медиа</a>
+            
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#projects" class="nav__link">Проекты</a></li>
+                    <li class="nav__item"><a href="#approach" class="nav__link">Подход</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                </ul>
+                <a href="#contacts" class="btn btn--mobile-menu">Обсудить проект →</a>
+            </nav>
+            
+            <a href="#contacts" class="btn btn--header">Обсудить проект →</a>
+
+            <!-- Бургер для мобильных -->
+            <button class="burger" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- Полоска под хедером -->
+        <div class="container">
+            <div class="header__divider"></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <!-- Заголовок + описание в контейнере -->
+            <div class="container">
+                <div class="hero__intro">
+                    <div class="hero__title-column">
+                        <p class="hero__subtitle">САЙТЫ · ПОИСК · СМЫСЛ</p>
+                        <h1 class="hero__title">
+                            Цифровое ремесло.
+
+                            Измеримый результат.
+                        </h1>
+                    </div>
+                    <div class="hero__description">
+                        <p class="hero__text">
+                            Собираем сайты, поиск и рекламу в единую систему. Помогаем амбициозным брендам расти.
+                        </p>
+                        <p class="hero__location">ИЗ ЯРОСЛАВЛЯ — В ЛЮБУЮ ТОЧКУ МИРА</p>
+                    </div>
+                </div>
+                
+                <!-- Полоска -->
+                <div class="hero__divider"></div>
+            </div>
+            
+            <!-- Картинка в ОТДЕЛЬНОМ контейнере -->
+            <div class="hero__image-container">
+                <div class="hero__image-wrapper">
+                    <img src="img/hero/hero-main.png" alt="Команда Додзё Медиа за работой" class="hero__image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <!-- Полоска сверху -->
+                <div class="projects__divider"></div>
+                
+                <div class="section-header">
+                    <h2 class="section-title">Избранные работы</h2>
+                    <p class="section-subtitle">ТРИ ПРОЕКТА. ТРИ ИСТОРИИ.</p>
+                </div>
+                
+                <div class="projects__grid">
+                    <article class="project-card">
+                        <div class="project-card__image-wrapper">
+                            <img src="img/projects/briskly.jpg" alt="Проект БРИСКЛИ" class="project-card__image">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">БРИСКЛИ</h3>
+                            <p class="project-card__tags">Сайт · Брендинг · Реклама</p>
+                            <a href="#" class="project-card__link">Смотреть проект →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div
+
+
+class="project-card__image-wrapper">
+                            <img src="img/projects/trade-overseas.jpg" alt="Проект ТРЕЙД ОВЕРСИЗ" class="project-card__image">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">ТРЕЙД ОВЕРСИЗ</h3>
+                            <p class="project-card__tags">Сайт · Стратегия · Реклама</p>
+                            <a href="#" class="project-card__link">Смотреть проект →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__image-wrapper">
+                            <img src="img/projects/gostiny-dvor.jpg" alt="Проект ГОСТИНЫЙ ДВОР" class="project-card__image">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">ГОСТИНЫЙ ДВОР</h3>
+                            <p class="project-card__tags">Сайт · Брендинг · Стратегия</p>
+                            <a href="#" class="project-card__link">Смотреть проект →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" id="contacts">
+            <div class="container">
+                <!-- Полоска сверху -->
+                <div class="cta__divider"></div>
+                
+                <!-- Основной блок 1200×86 -->
+                <div class="cta__container">
+                    <div class="cta__copy">
+                        <h2 class="cta__title">Начнём с вашей идеи.</h2>
+                        <a href="mailto:hello@dojo-media.com" class="cta__email">hello@dojo-media.com</a>
+                    </div>
+                    <a href="mailto:hello@dojo-media.com" class="btn">Обсудить проект →</a>
+                </div>
+                
+                <!-- Футер 1200×22 -->
+                <div class="cta__footer">
+                    <p class="copyright">© 2026 Додзё Медиа</p>
+                    <p class="cta__tagline">Мастерство начинается с деталей.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
