@@ -11,7 +11,7 @@
    HEADER
    ======================================== */
 .header {
-    padding: 32px 0 40px; /* Увеличил отступ снизу */
+    padding: 32px 0 40px; 
 }
 
 .header__container {
@@ -94,7 +94,7 @@
     justify-content: space-between;
     align-items: flex-start;
     min-height: 152px;
-    margin-bottom: 32px; /* Отступ до полоски */
+    margin-bottom: 32px; 
 }
 
 /* Левая колонка с заголовком */
@@ -134,8 +134,8 @@
 
 .hero__text {
     font-size: 16px;
-    line-height: 26px; /* Из Figma */
-    color: var(--color-muted); /* #655B54 */
+    line-height: 26px; 
+    color: var(--color-muted); 
     margin: 0;
 }
 
@@ -147,16 +147,16 @@
     margin: 0;
 }
 
-/* Полоска ровно по ширине контейнера */
+/* Полоска по ширине контейнера */
 .hero__divider {
     height: 1px;
     background-color: var(--color-line);
-    margin-bottom: 0; /* Отступ до картинки */
+    margin-bottom: 0; 
 }
 
 /* Картинка в отдельном контейнере */
 .hero__image-container {
-    padding: 0 40px; /* Такие же отступы как у container */
+    padding: 0 40px; 
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 0;
@@ -318,7 +318,7 @@
     margin-bottom: 30px; /* Отступ до футера */
 }
 
-/* "Начнём с вашей идеи" + email */
+
 .cta__copy {
     display: flex;
     flex-direction: column;
@@ -327,7 +327,7 @@
 
 .cta__title {
     font-family: var(--font-heading);
-    font-size: 48px; /* Размер из Figma */
+    font-size: 48px; 
     color: var(--color-ink);
     font-weight: 400;
     margin: 0;
@@ -335,10 +335,10 @@
 }
 
 .cta__email {
-    font-size: 14px; /* Размер из Figma */
+    font-size: 14px; 
     color: var(--color-muted);
     transition: opacity 0.3s;
-    line-height: 22px; /* Высота строки из Figma */
+    line-height: 22px; 
 }
 
 .cta__email:hover {
@@ -352,7 +352,7 @@
     align-items: center;
     font-size: 14px;
     color: var(--color-muted);
-    height: 22px; /* Высота футера из Figma */
+    height: 22px; 
 }
 
 /* ========================================
@@ -368,10 +368,10 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 100%; /* Появляется сразу под хедером */
+        top: 100%; 
         left: 0;
         width: 100%;
-        background-color: var(--color-paper); /* Цвет фона, как у сайта */
+        background-color: var(--color-paper); 
         padding: 20px;
         box-sizing: border-box;
         opacity: 0;
@@ -395,7 +395,7 @@
         gap: 16px;
     }
 
-    /* Скрываем кнопку в хедере (теперь благодаря классу btn--header) */
+    
     .btn--header {
         display: none !important;
     }
@@ -406,14 +406,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 6px; /* Расстояние между полосками */
+        gap: 6px; 
         width: 40px;
         height: 40px;
         border: 1px solid var(--color-ink);
         background: transparent;
         cursor: pointer;
         padding: 0;
-        position: relative; /* Важно для позиционирования крестика */
+        position: relative; 
         z-index: 101;
     }
 
@@ -465,7 +465,7 @@
         width: 100%;
         max-width: 384px;
         height: auto;
-        margin: 0 auto; /* Центрируем карточку */
+        margin: 0 auto; 
     }
 
     .section-header {
@@ -480,10 +480,10 @@
     /* --- ФУТЕР / CTA --- */
     .cta__container {
         flex-direction: column;
-        align-items: flex-start; /* Выравниваем всё по левому краю */
-        text-align: left; /* Текст тоже по левому краю */
-        gap: 24px; /* Отступ между текстом и кнопкой */
-        height: auto; /* Убираем жесткую высоту 86px, чтобы ничего не наезжало */
+        align-items: flex-start; 
+        text-align: left; 
+        gap: 24px; 
+        height: auto; 
         margin-bottom: 40px;
     }
 
@@ -493,11 +493,11 @@
 
     /* Кнопка в футере */
     .cta__container .btn {
-        width: 100%; /* Кнопка на всю ширину экрана (если хотите по размеру текста, напишите width: auto) */
+        width: 100%; 
         margin-top: 10px;
     }
 
-    /* Нижняя часть футера (копирайт и подпись) */
+    /* Нижняя часть футера */
     .cta__footer {
         flex-direction: column;
         align-items: flex-start;
@@ -506,16 +506,14 @@
     }
 }
 
-/* Скрываем кнопку внутри меню на десктопе */
 .btn--mobile-menu {
     display: none;
 }
 
-/* Показываем её только на мобильных */
 @media (max-width: 768px) {
     .btn--mobile-menu {
-        display: inline-flex; /* Или flex, если хотите на всю ширину */
+        display: inline-flex; 
         margin-top: 24px;
-        width: 100%; /* Растягиваем на всю ширину меню, как в макете */
+        width: 100%; 
     }
 }
